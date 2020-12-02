@@ -1,0 +1,9 @@
+<%= form_for @changeset, topic_path(@conn, :create), fn f -> %>
+    <div class ="form-group">
+        <%# Text input, takes in the form f, generates the title property, with palceholder title and class of form control%>
+        <%= text_input f, :title, placeholder: "Title", class: "form-control" %>
+        <%= error_tag f, :title %>
+    </div>
+
+    <%=submit "Save Topic", class: "btn btn-primary" %>
+<% end %>
