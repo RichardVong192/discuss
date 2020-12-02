@@ -20,4 +20,4 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Source: https://github.com/phoenixframework/phoenix
 
 ## Note
-Generate and use your own secret key in the discuss/config/config.exs
+Generate and use your own secret key in the `discuss/config/config.exs`
